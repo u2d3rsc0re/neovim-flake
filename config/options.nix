@@ -1,14 +1,14 @@
-{self, ...}: {
-    globalOpts = {
+{...}: {
+    opts = {
+	number = true;
+	relativenumber = true;
+
 	smartindent = true;
 	autoindent = true;
 	tabstop = 4;
 	shiftwidth = 4;
 	softtabstop = 4;
 	expandtab = true;
-
-	number = true;
-	relativenumber = true;
 
 	undofile = true;
 	swapfile = false;
