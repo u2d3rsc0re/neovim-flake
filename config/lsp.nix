@@ -22,6 +22,7 @@
       };
       ccls.enable = true;
       ts_ls.enable = true;
+      elmls.enable = true;
     };
   };
   keymaps = [
