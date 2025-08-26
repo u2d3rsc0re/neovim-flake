@@ -16,7 +16,7 @@
       nil_ls.enable = true;
       rust_analyzer = {
         enable = true;
-        settings.procMacro.enable = true;
+        # settings.procMacro.enable = true;
         installRustc = false;
         installCargo = false;
       };
