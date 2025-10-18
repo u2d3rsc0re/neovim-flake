@@ -1,5 +1,5 @@
 {
-  imports = [ 
+  imports = [
     ./options.nix
     ./telescope.nix
     ./tools.nix

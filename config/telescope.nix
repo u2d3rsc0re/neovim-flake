@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   plugins = {
     telescope = {
       enable = true;
@@ -12,6 +13,7 @@
         "<leader><space>" = "buffers";
         "<leader>sf" = "find_files";
         "<leader>sg" = "live_grep";
+        "<leader>sd" = "diagnostics";
       };
     };
   };

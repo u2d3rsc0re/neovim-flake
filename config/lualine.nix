@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       options = {
-	theme = "rose-pine-alt";
+        theme = "rose-pine-alt";
       };
     };
   };
