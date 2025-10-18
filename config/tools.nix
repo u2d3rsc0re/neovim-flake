@@ -6,7 +6,7 @@
     sleuth.enable = true;
     web-devicons.enable = true;
     gitsigns.enable = true;
-    trouble.enable = true;
+    which-key.enable = true;
   };
   keymaps = [
     {
