@@ -5,6 +5,8 @@
     comment.enable = true;
     sleuth.enable = true;
     web-devicons.enable = true;
+    gitsigns.enable = true;
+    trouble.enable = true;
   };
   keymaps = [
     {
