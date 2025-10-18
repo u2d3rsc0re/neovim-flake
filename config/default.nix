@@ -8,6 +8,7 @@
     ./colorsheme.nix
     ./lualine.nix
     ./lsp.nix
+    ./ai.nix
     ./format.nix
   ];
 }

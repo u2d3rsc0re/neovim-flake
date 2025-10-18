@@ -1,6 +1,6 @@
 {
   plugins = {
-    copilot.enable = true;
+    copilot-vim.enable = true;
     copilot-chat.enable = true;
   };
 }
