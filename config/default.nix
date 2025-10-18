@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{
   imports = [ 
     ./options.nix
     ./telescope.nix
@@ -8,5 +8,6 @@
     ./colorsheme.nix
     ./lualine.nix
     ./lsp.nix
+    ./format.nix
   ];
 }

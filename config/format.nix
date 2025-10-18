@@ -1,18 +1,21 @@
-{ pkgs }:{
-  plugins.conform = {
-  	enable = true;
-		formatters = with pkgs.neovimPlugins.conform.formatters; [
-			stylua
-			prettier
-			shfmt
-			black
-			isort
-			rustfmt
-      alejandra
-		];
-    format_on_save = {
-      timeout_ms = 2000;
-      lsp_fallback = true;
+{
+  plugins.conform-nvim = {
+    enable = true;
+    settings = {
+      formatters_by_ft = {
+        nix = [ "alejandra" ];
+        javascript = [ "prettier" ];
+        typescript = [ "prettier" ];
+        rust = [ "rustfmt" ];
+        lua = [ "stylua" ];
+        python = [ "black" ];
+        json = [ "prettier" ];
+        yaml = [ "prettier" ];
+      };
+      format_on_save = {
+        timeout_ms = 500;
+        lsp_fallback = true;
+      };
     };
   };
 }
