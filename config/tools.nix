@@ -4,6 +4,7 @@
     fidget.enable = true;
     comment.enable = true;
     sleuth.enable = true;
+    web-devicons.enable = true;
   };
   keymaps = [
     {
