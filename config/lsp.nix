@@ -11,6 +11,7 @@
       K = "hover";
       "<C-k>" = "signature_help";
       gD = "declaration";
+      gr = "references";
     };
     servers = {
       nil_ls.enable = true;
